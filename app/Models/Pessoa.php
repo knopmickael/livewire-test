@@ -19,8 +19,8 @@ class Pessoa extends Model
     protected $fillable = [
         'name',
         'email',
-        'phone-number',
+        'phoneNumber',
         'age',
-        'personal-info'
+        'personalInfo'
     ];
 }

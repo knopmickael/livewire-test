@@ -17,9 +17,9 @@ class CreatePessoasTable extends Migration
             $table->id();
             $table->string('name')->unique();
             $table->string('email')->unique();
-            $table->string('phone-number')->unique();
+            $table->string('phoneNumber')->unique();
             $table->integer('age');
-            $table->text('personal-info');
+            $table->text('personalInfo');
             // $table->timestamps();
         });
     }

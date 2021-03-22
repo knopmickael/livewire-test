@@ -7,4 +7,11 @@
         @apply transition-all;
         @apply duration-300;
     }
+    td, tr, th {
+        @apply px-4;
+        @apply py-2;
+    }
+    tr {
+        @apply bg-white;
+    }
 }

@@ -24,9 +24,9 @@ class PessoaFactory extends Factory
         return [
             'name' => $this->faker->unique()->name,
             'email' => $this->faker->unique()->safeEmail,
-            'phone-number' => $this->faker->unique()->e164PhoneNumber,
+            'phoneNumber' => $this->faker->unique()->e164PhoneNumber,
             'age' => $this->faker->numberBetween(18, 50),
-            'personal-info' => $this->faker->realText
+            'personalInfo' => $this->faker->realText
         ];
     }
 }
