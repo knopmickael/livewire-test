@@ -9,4 +9,4 @@ use App\Http\Livewire\{
 
 Route::view('/', 'welcome');
 
-Route::get('/pessoas', Pessoas::class);
+Route::get('/people', Pessoas::class);
