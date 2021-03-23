@@ -15,6 +15,6 @@ class Pessoas extends Component
     {
         return view('livewire.pessoas', [
             'pessoas' => Pessoa::where('name', 'like', '%'.$this->search.'%')->get(),
-        ]);
+        ])->extends('layouts.app');
     }
 }

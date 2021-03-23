@@ -1,23 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My API</title>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-</head>
-<body>
-    <section class="flex flex-col items-center justify-center h-screen space-y-4 relative bg-gradient-to-b from-secondary to-primary">
+@extends('layouts.app')
 
-        <h1 class="text-3xl font-black text-white border-b-4 border-white pb-4">Welcome to my API</h1>
+@section('content')
 
-        <p class="text-xl text-secondary">Please check this <a class="font-bold hover:text-yellow-400" href="/api">link</a> to access it</p>
+    <h1 class="text-3xl font-black text-white border-b-4 border-white pb-4">Welcome to my API</h1>
 
-        <p class="text-xl text-secondary">Or check it out <a class="font-bold hover:text-yellow-400" href="/pessoas">here</a></p>
+    <p class="text-xl text-secondary">Please check this <a class="font-black hover:text-yellow-400" href="/api">link</a> to access it</p>
 
-        <span class="absolute bottom-2 right-4 text-sm italic">Made by <a class="hover:underline" href="https://github.com/knopmickael" target="_blank">Rickson Mickael Knop</a></span>
+    <p class="text-xl text-secondary">Or check it out <a class="font-black hover:text-yellow-400" href="/pessoas">here</a></p>
 
-    </section>
-</body>
-</html>
+@endsection
