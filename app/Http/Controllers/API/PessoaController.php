@@ -18,7 +18,7 @@ class PessoaController extends Controller
     {
         return response()->json(
             Pessoa::all()
-        )->header('Access-Control-Allow-Origin', "*");
+        );
     }
 
     /**
@@ -31,6 +31,6 @@ class PessoaController extends Controller
     {
         return response()->json(
             Pessoa::find($pessoa)
-        )->header('Content-Type', 'text/plain');
+        );
     }
 }
