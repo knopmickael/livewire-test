@@ -18,7 +18,7 @@ class PessoaController extends Controller
     {
         return response()->json(
             Pessoa::all()
-        )->header('Content-Type', 'text/plain')->header('Access-Control-Allow-Origin', "*");
+        )->header('Access-Control-Allow-Origin', "*");
     }
 
     /**
