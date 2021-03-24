@@ -18,7 +18,7 @@ class PessoaController extends Controller
     {
         return response()->json(
             Pessoa::all()
-        );
+        )->header('Content-Type', 'application/json');
     }
 
     /**
@@ -31,6 +31,6 @@ class PessoaController extends Controller
     {
         return response()->json(
             Pessoa::find($pessoa)
-        );
+        )->header('Content-Type', 'application/json');
     }
 }
