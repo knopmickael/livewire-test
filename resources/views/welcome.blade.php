@@ -6,6 +6,6 @@
 
     <p class="text-xl text-secondary">Please check this <a class="font-black hover:text-yellow-400" href="/api">link</a> to access it</p>
 
-    <p class="text-xl text-secondary">Or check it out <a class="font-black hover:text-yellow-400" href="/pessoas">here</a></p>
+    <p class="text-xl text-secondary">Or check it out <a class="font-black hover:text-yellow-400" href="/people">here</a></p>
 
 @endsection
